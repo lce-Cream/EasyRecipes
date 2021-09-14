@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    /* border: 1px solid black; */
+}
+
+body{
+    background-image: -moz-linear-gradient(top, turquoise, white 150px);
+    /* height: 1000px; */
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-header{
+    margin-top: 30px;
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; 
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+}
+
+.logo:hover {
+    background-color: turquoise;
+}
+
+.main-header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+
+/* _____ */
+/* CARDS */
+/* _____ */
+.cards-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    max-width: 300px;
+    max-height: 500px;
+    text-align: center;
+}
+
+.card img{
+    width:300px; height: 300px;
+}
+
+.card a{
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+}
+
+.card a:hover{
+    background-color: turquoise;
+}
+
+/* _______ */
+/* CONTENT-1 */
+/* _______ */
+.content-1{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.content-1 img{
+    width: 400px;
+    margin-right: 50px;
+    opacity: 0.9;
+    border: 2px solid turquoise;
+}
+
+.content-1 p{
+    width: 450px;
+    margin-right: 50px;
+}
+
+.content-1 audio{
+    width: 560px;
+    display: block;
+}
+
+
+/* _______ */
+/* CONTENT-2 */
+/* _______ */
+.content-2{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content-2 .steps{
+    width: 1100px;
+}
+
+.content-2 table{
+    /* padding-bottom: 10px; */
+    border: 1px solid turquoise;
+
+}
+
+.content-3{
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+    height: 500px;
+}
+
+.ingredients-time-table{
+    width: 500px;
+}
+
+
+/* _______ */
+/* BUTTONS */
+/* _______ */
+.copy-button{
+    margin-top: 10px;
+    width: 200px;
+}
+
+ /* Dropdown Button */
+.dropbtn {
+     background-color: transparent;
+     color: black;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: turquoise;} 
